@@ -12,14 +12,11 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Alter attribute defaults with less pain",
   "AUTHOR" => "Chris Weyl <cweyl\@alumni.drew.edu>",
   "BUILD_REQUIRES" => {
-    "Carp" => 0,
     "File::Find" => 0,
     "File::Temp" => 0,
     "Scalar::Util" => 0,
     "Test::Moose" => 0,
-    "Test::More" => "0.94",
-    "Test::UseAllModules" => 0,
-    "perl" => "5.004",
+    "Test::More" => "0.88",
     "strict" => 0,
     "warnings" => 0
   },
@@ -38,7 +35,7 @@ my %WriteMakefileArgs = (
     "Moose::Util" => 0,
     "namespace::autoclean" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

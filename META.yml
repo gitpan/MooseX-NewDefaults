@@ -3,20 +3,17 @@ abstract: 'Alter attribute defaults with less pain'
 author:
   - 'Chris Weyl <cweyl@alumni.drew.edu>'
 build_requires:
-  Carp: 0
   File::Find: 0
   File::Temp: 0
   Scalar::Util: 0
   Test::Moose: 0
-  Test::More: 0.94
-  Test::UseAllModules: 0
-  perl: 5.004
+  Test::More: 0.88
   strict: 0
   warnings: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112150'
+generated_by: 'Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112621'
 license: lgpl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -32,8 +29,9 @@ requires:
   perl: 5.006
 resources:
   bugtracker: https://github.com/RsrchBoy/moosex-newdefaults/issues
+  homepage: http://metacpan.org/release/MooseX-NewDefaults/
   repository: git://github.com/RsrchBoy/moosex-newdefaults.git
-version: 0.001
+version: 0.002
 x_Dist_Zilla:
   plugins:
     -
@@ -135,15 +133,11 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::Test::Compile
       name: '@RSRCHBOY/Test::Compile'
-      version: 1.112770
+      version: 1.112820
     -
       class: Dist::Zilla::Plugin::Test::Portability
       name: '@RSRCHBOY/Test::Portability'
       version: 2.0.2
-    -
-      class: Dist::Zilla::Plugin::Test::UseAllModules
-      name: '@RSRCHBOY/Test::UseAllModules'
-      version: 0.002
     -
       class: Dist::Zilla::Plugin::ExtraTests
       name: '@RSRCHBOY/ExtraTests'
@@ -153,9 +147,9 @@ x_Dist_Zilla:
       name: '@RSRCHBOY/MinimumPerl'
       version: 1.003
     -
-      class: Dist::Zilla::Plugin::ReportVersions
-      name: '@RSRCHBOY/ReportVersions'
-      version: 1.112720
+      class: Dist::Zilla::Plugin::ReportVersions::Tiny
+      name: '@RSRCHBOY/ReportVersions::Tiny'
+      version: 1.03
     -
       class: Dist::Zilla::Plugin::NoSmartCommentsTests
       name: '@RSRCHBOY/NoSmartCommentsTests'
@@ -239,5 +233,5 @@ x_Dist_Zilla:
   zilla:
     class: Dist::Zilla::Dist::Builder
     config:
-      is_trial: 1
+      is_trial: 0
     version: 4.300002

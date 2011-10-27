@@ -9,7 +9,7 @@
 #
 package MooseX::NewDefaults;
 {
-  $MooseX::NewDefaults::VERSION = '0.001'; # TRIAL
+  $MooseX::NewDefaults::VERSION = '0.002';
 }
 
 # ABSTRACT: Alter attribute defaults with less pain
@@ -52,7 +52,7 @@ MooseX::NewDefaults - Alter attribute defaults with less pain
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

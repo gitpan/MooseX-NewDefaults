@@ -2,7 +2,7 @@ NAME
     MooseX::NewDefaults - Alter attribute defaults with less pain
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
         package One;
