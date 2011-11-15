@@ -13,7 +13,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112621'
+generated_by: 'Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.112621'
 license: lgpl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -31,13 +31,13 @@ resources:
   bugtracker: https://github.com/RsrchBoy/moosex-newdefaults/issues
   homepage: http://metacpan.org/release/MooseX-NewDefaults/
   repository: git://github.com/RsrchBoy/moosex-newdefaults.git
-version: 0.002
+version: 0.003
 x_Dist_Zilla:
   plugins:
     -
       class: Dist::Zilla::Plugin::NextRelease
       name: '@RSRCHBOY/NextRelease'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::Git::Check
       name: '@RSRCHBOY/@Git/Check'
@@ -61,27 +61,27 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::GatherDir
       name: '@RSRCHBOY/GatherDir'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::PruneCruft
       name: '@RSRCHBOY/PruneCruft'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::License
       name: '@RSRCHBOY/License'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::ExecDir
       name: '@RSRCHBOY/ExecDir'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::ShareDir
       name: '@RSRCHBOY/ShareDir'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::MakeMaker
       name: '@RSRCHBOY/MakeMaker'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::InstallGuide
       name: '@RSRCHBOY/InstallGuide'
@@ -89,7 +89,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::Manifest
       name: '@RSRCHBOY/Manifest'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::SurgicalPkgVersion
       name: '@RSRCHBOY/SurgicalPkgVersion'
@@ -101,7 +101,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::AutoPrereqs
       name: '@RSRCHBOY/AutoPrereqs'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::Prepender
       name: '@RSRCHBOY/Prepender'
@@ -113,11 +113,11 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::PodCoverageTests
       name: '@RSRCHBOY/PodCoverageTests'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::PodSyntaxTests
       name: '@RSRCHBOY/PodSyntaxTests'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::NoTabsTests
       name: '@RSRCHBOY/NoTabsTests'
@@ -141,7 +141,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::ExtraTests
       name: '@RSRCHBOY/ExtraTests'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::MinimumPerl
       name: '@RSRCHBOY/MinimumPerl'
@@ -157,31 +157,31 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::MetaConfig
       name: '@RSRCHBOY/MetaConfig'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::MetaJSON
       name: '@RSRCHBOY/MetaJSON'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::MetaYAML
       name: '@RSRCHBOY/MetaYAML'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::TestRelease
       name: '@RSRCHBOY/TestRelease'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::ConfirmRelease
       name: '@RSRCHBOY/ConfirmRelease'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::UploadToCPAN
       name: '@RSRCHBOY/UploadToCPAN'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::CheckPrereqsIndexed
       name: '@RSRCHBOY/CheckPrereqsIndexed'
-      version: 0.005
+      version: 0.007
     -
       class: Dist::Zilla::Plugin::GitHub::Meta
       name: '@RSRCHBOY/GitHub::Meta'
@@ -201,7 +201,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::ArchiveRelease
       name: '@RSRCHBOY/ArchiveRelease'
-      version: 3.01
+      version: 4.00
     -
       class: Dist::Zilla::Plugin::InstallRelease
       name: '@RSRCHBOY/InstallRelease'
@@ -209,29 +209,29 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':InstallModules'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':IncModules'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':TestFiles'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':ExecFiles'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':ShareFiles'
-      version: 4.300002
+      version: 4.300003
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':MainModule'
-      version: 4.300002
+      version: 4.300003
   zilla:
     class: Dist::Zilla::Dist::Builder
     config:
       is_trial: 0
-    version: 4.300002
+    version: 4.300003

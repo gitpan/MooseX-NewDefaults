@@ -9,7 +9,7 @@
 #
 package MooseX::NewDefaults::Magic;
 {
-  $MooseX::NewDefaults::Magic::VERSION = '0.002';
+  $MooseX::NewDefaults::Magic::VERSION = '0.003';
 }
 
 # ABSTRACT: A slightly more magical version of NewDefaults
@@ -24,7 +24,7 @@ use MooseX::NewDefaults ();
 {
     package MooseX::NewDefaults::Trait::Class;
 {
-  $MooseX::NewDefaults::Trait::Class::VERSION = '0.002';
+  $MooseX::NewDefaults::Trait::Class::VERSION = '0.003';
 }
     use Moose::Role;
     use namespace::autoclean;
@@ -111,7 +111,7 @@ MooseX::NewDefaults::Magic - A slightly more magical version of NewDefaults
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
