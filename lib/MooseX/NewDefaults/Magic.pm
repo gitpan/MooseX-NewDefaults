@@ -9,7 +9,7 @@
 #
 package MooseX::NewDefaults::Magic;
 {
-  $MooseX::NewDefaults::Magic::VERSION = '0.003';
+  $MooseX::NewDefaults::Magic::VERSION = '0.004';
 }
 
 # ABSTRACT: A slightly more magical version of NewDefaults
@@ -24,7 +24,7 @@ use MooseX::NewDefaults ();
 {
     package MooseX::NewDefaults::Trait::Class;
 {
-  $MooseX::NewDefaults::Trait::Class::VERSION = '0.003';
+  $MooseX::NewDefaults::Trait::Class::VERSION = '0.004';
 }
     use Moose::Role;
     use namespace::autoclean;
@@ -101,9 +101,13 @@ Moose::Exporter->setup_import_methods(
 
 !!42;
 
-
+__END__
 
 =pod
+
+=encoding utf-8
+
+=for :stopwords Chris Weyl
 
 =head1 NAME
 
@@ -111,7 +115,7 @@ MooseX::NewDefaults::Magic - A slightly more magical version of NewDefaults
 
 =head1 VERSION
 
-version 0.003
+This document describes version 0.004 of MooseX::NewDefaults::Magic - released September 24, 2012 as part of MooseX-NewDefaults.
 
 =head1 SYNOPSIS
 
@@ -125,7 +129,8 @@ version 0.003
     package Two;
     use Moose;
     use namespace::autoclean;
-    use MooseX::NewDefaults::Mafic;
+    use MooseX::NewDefaults::Magic;
+    extends 'One';
 
     # we include the default_for sugar
     default_for B => 'say oooh';
@@ -171,16 +176,33 @@ add_attribute("+$attribute_name" => %options).
 
 =head1 SEE ALSO
 
+Please see those modules/websites for more information related to this module.
+
+=over 4
+
+=item *
+
+L<MooseX::NewDefaults|MooseX::NewDefaults>
+
+=item *
+
 L<MooseX::NewDefaults>
+
+=back
+
+=head1 SOURCE
+
+The development version is on github at L<http://github.com/RsrchBoy/moosex-newdefaults>
+and may be cloned from L<git://github.com/RsrchBoy/moosex-newdefaults.git>
 
 =head1 BUGS
 
-All complex software has bugs lurking in it, and this module is no exception.
+Please report any bugs or feature requests on the bugtracker website
+https://github.com/RsrchBoy/moosex-newdefaults/issues
 
-Bugs, feature requests and pull requests through GitHub are most welcome; our
-page and repo (same URI):
-
-    https://github.com/RsrchBoy/moosex-newdefaults
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
 
 =head1 AUTHOR
 
@@ -195,7 +217,3 @@ This is free software, licensed under:
   The GNU Lesser General Public License, Version 2.1, February 1999
 
 =cut
-
-
-__END__
-
